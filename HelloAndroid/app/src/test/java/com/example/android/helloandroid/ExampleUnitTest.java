@@ -1,4 +1,4 @@
-package com.example.obitola.helloandroid;
+package com.example.android.helloandroid;
 
 import org.junit.Test;
 

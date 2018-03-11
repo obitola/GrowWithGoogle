@@ -1,4 +1,4 @@
-package com.example.obitola.helloandroid;
+package com.example.android.helloandroid;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.obitola.helloandroid", appContext.getPackageName());
+        assertEquals("com.example.android.helloandroid", appContext.getPackageName());
     }
 }
