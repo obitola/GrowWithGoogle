@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Euchre Score Keeper</string>
+    <string name="point">Point +1</string>
+    <string name="sweep">Sweep +2</string>
+    <string name="euchre">Euchre +2</string>
+    <string name="eas">Euchre/Sweep +3</string>
+    <string name="solo">Solo Sweep +4</string>
+    <string name="renege">Renege +2</string>
+    <string name="reset">Reset</string>
+    <string name="settings">Settings</string>
+
+
+</resources>
