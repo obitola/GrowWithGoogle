@@ -42,9 +42,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Score: 0"
+                    android:text="0"
                     android:textColor="@color/colorWhite"
-                    android:textSize="40sp"
+                    android:textSize="64sp"
                     android:layout_marginBottom="16dp"/>
 
                 <Button
@@ -111,8 +111,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textColor="@color/colorWhite"
-                    android:text="Score: 0"
-                    android:textSize="40sp"
+                    android:text="0"
+                    android:textSize="64sp"
                     android:layout_marginBottom="16dp"/>
 
                 <Button
@@ -156,27 +156,12 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="horizontal">
-
             <Button
                 android:id="@+id/reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/reset"/>
-
-            <Button
-                android:id="@+id/settings"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/settings"/>
-
-        </LinearLayout>
 
     </LinearLayout>
 

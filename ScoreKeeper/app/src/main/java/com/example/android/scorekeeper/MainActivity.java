@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
         renegeB = findViewById(R.id.renegeB);
         reset = findViewById(R.id.reset);
 
-        scoreA.setText("Score: " + a);
-        scoreB.setText("Score: " + b);
-
         pointA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -151,19 +148,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void addA(int amount) {
         a += amount;
-        scoreA.setText("Score: " + a);
+        scoreA.setText("" + a);
     }
 
     private void addB(int amount) {
         b += amount;
-        scoreB.setText("Score: " + b);
+        scoreB.setText("" + b);
     }
 
     private void reset() {
         a = 0;
         b = 0;
-        scoreA.setText("Score: " + a);
-        scoreB.setText("Score: " + b);
+        scoreA.setText("" + a);
+        scoreB.setText("" + b);
     }
 
 
